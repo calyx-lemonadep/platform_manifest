@@ -5,6 +5,10 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-18.1" />
 
+  <remote name="lemonadep"
+          fetch="https://github.com/calyx-lemonadep"
+          revision="android11-qpr1" />
+
   <!-- CalyxOS additions -->
   <project name="CalyxOS/platform_manifest" path="manifest" remote="gitlab" />
   <project name="CalyxOS/platform_calyx-sdk" path="calyx-sdk" remote="gitlab" />
@@ -165,5 +169,11 @@
   <project name="CalyxOS/device_xiaomi_wayne-common" path="device/xiaomi/wayne-common" remote="gitlab" />
   <project name="CalyxOS/kernel_xiaomi_jasmine_sprout" path="kernel/xiaomi/jasmine_sprout" remote="gitlab" />
   <project name="CalyxOS/platform_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="gitlab" />
+
+  <!-- OnePlus 9 Pro -->
+  <project name="device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="lemonadep" />
+  <project name="device_oneplus_lemonadep" path="device/oneplus/lemonadep" remote="lemonadep" />
+  <project name="vendor_oneplus" path="vendor/oneplus" remote="lemonadep" />
+  <project name="kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="lemonadep" />
 
 </manifest>
