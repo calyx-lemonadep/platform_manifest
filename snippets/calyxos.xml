@@ -177,6 +177,7 @@
   <project name="device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="lemonadep" />
   <project name="device_oneplus_lemonadep" path="device/oneplus/lemonadep" remote="lemonadep" />
   <project name="vendor_oneplus" path="vendor/oneplus" remote="lemonadep" />
+  <project name="hardware_oneplus" path="hardware/oneplus" remote="lemonadep" />
   <project name="kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="lemonadep" />
 
 </manifest>
