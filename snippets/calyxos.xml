@@ -59,6 +59,7 @@
   <project name="CalyxOS/platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="gitlab" />
   <project name="CalyxOS/platform_external_ant-wireless_hidl" path="external/ant-wireless/hidl" remote="gitlab" />
   <project name="CalyxOS/platform_external_json-c" path="external/json-c" remote="gitlab" />
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcoom" revision="lineage-18.1-caf" remote="lineage" />
   <project name="CalyxOS/platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="gitlab" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
