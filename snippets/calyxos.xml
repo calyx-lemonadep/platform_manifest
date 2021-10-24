@@ -50,7 +50,9 @@
   </project>
 
   <!-- CodeAurora additions -->
+  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="lineage" />
   <project name="CalyxOS/device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="gitlab" />
+  <project name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="lineage" />
   <project name="CalyxOS/platform_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" remote="gitlab" />
   <project name="CalyxOS/platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="gitlab" />
   <project name="CalyxOS/platform_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="gitlab" />
