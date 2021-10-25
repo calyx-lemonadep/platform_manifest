@@ -5,10 +5,6 @@
           fetch="https://github.com/LineageOS"
           revision="lineage-18.1" />
 
-  <remote name="lemonadep"
-          fetch="https://github.com/calyx-lemonadep"
-          revision="android11-qpr1" />
-
   <!-- CalyxOS additions -->
   <project name="platform_manifest" path="manifest" remote="lemonadep" />
   <project name="CalyxOS/platform_calyx-sdk" path="calyx-sdk" remote="gitlab" />
@@ -52,15 +48,15 @@
   <!-- CodeAurora additions -->
   <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="lineage" />
   <project name="CalyxOS/device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="gitlab" />
-  <project name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="lineage" />
+  <project name="device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="lemonadep" />
   <project name="CalyxOS/platform_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" remote="gitlab" />
   <project name="CalyxOS/platform_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="gitlab" />
   <project name="CalyxOS/platform_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="gitlab" />
   <project name="CalyxOS/platform_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="gitlab" />
   <project name="CalyxOS/platform_external_ant-wireless_hidl" path="external/ant-wireless/hidl" remote="gitlab" />
   <project name="CalyxOS/platform_external_json-c" path="external/json-c" remote="gitlab" />
-  <project name="hardware_calyx_interfaces" path="hardware/calyx/interfaces" remote="lemonadep" />
-  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcoom" revision="lineage-18.1-caf" remote="lineage" />
+  <project name="platform_hardware_calyx_interfaces" path="hardware/calyx/interfaces" remote="lemonadep" />
+  <project name="android_hardware_qcom_bootctrl" path="hardware/qcom-caf/bootctrl" groups="qcom,pdk-qcom" revision="lineage-18.1-caf" remote="lineage" />
   <project name="CalyxOS/platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="gitlab" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
